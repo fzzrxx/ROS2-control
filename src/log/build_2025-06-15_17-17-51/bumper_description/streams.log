@@ -1,0 +1,40 @@
+[0.016s] Invoking command in '/home/faraz/bumperbot_ws/src/build/bumper_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faraz/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/faraz/bumperbot_ws/src/bumper_description -DCMAKE_INSTALL_PREFIX=/home/faraz/bumperbot_ws/src/install/bumper_description
+[0.125s] -- The C compiler identification is GNU 13.3.0
+[0.226s] -- The CXX compiler identification is GNU 13.3.0
+[0.246s] -- Detecting C compiler ABI info
+[0.335s] -- Detecting C compiler ABI info - done
+[0.343s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.343s] -- Detecting C compile features
+[0.344s] -- Detecting C compile features - done
+[0.353s] -- Detecting CXX compiler ABI info
+[0.449s] -- Detecting CXX compiler ABI info - done
+[0.461s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.462s] -- Detecting CXX compile features
+[0.462s] -- Detecting CXX compile features - done
+[0.483s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.649s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.775s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.888s] -- Added test 'lint_cmake' to check CMake code style
+[0.890s] -- Added test 'xmllint' to check XML markup files
+[0.892s] -- Configuring done (0.9s)
+[0.894s] -- Generating done (0.0s)
+[0.896s] -- Build files have been written to: /home/faraz/bumperbot_ws/src/build/bumper_description
+[0.900s] Invoked command in '/home/faraz/bumperbot_ws/src/build/bumper_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faraz/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/faraz/bumperbot_ws/src/bumper_description -DCMAKE_INSTALL_PREFIX=/home/faraz/bumperbot_ws/src/install/bumper_description
+[0.902s] Invoking command in '/home/faraz/bumperbot_ws/src/build/bumper_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faraz/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/faraz/bumperbot_ws/src/build/bumper_description -- -j8 -l8
+[0.941s] Invoked command in '/home/faraz/bumperbot_ws/src/build/bumper_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faraz/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/faraz/bumperbot_ws/src/build/bumper_description -- -j8 -l8
+[0.950s] Invoking command in '/home/faraz/bumperbot_ws/src/build/bumper_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faraz/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/faraz/bumperbot_ws/src/build/bumper_description
+[0.958s] -- Install configuration: ""
+[0.958s] -- Installing: /home/faraz/bumperbot_ws/src/install/bumper_description/share/bumper_description/meshes
+[0.958s] -- Installing: /home/faraz/bumperbot_ws/src/install/bumper_description/share/bumper_description/meshes/caster_front_link.STL
+[0.958s] -- Installing: /home/faraz/bumperbot_ws/src/install/bumper_description/share/bumper_description/meshes/imu_link.STL
+[0.958s] -- Installing: /home/faraz/bumperbot_ws/src/install/bumper_description/share/bumper_description/meshes/wheel_right_link.STL
+[0.959s] -- Installing: /home/faraz/bumperbot_ws/src/install/bumper_description/share/bumper_description/meshes/wheel_left_link.STL
+[0.960s] -- Installing: /home/faraz/bumperbot_ws/src/install/bumper_description/share/bumper_description/meshes/caster_rear_link.STL
+[0.960s] -- Installing: /home/faraz/bumperbot_ws/src/install/bumper_description/share/bumper_description/meshes/base_link.STL
+[0.968s] [31mCMake Error at cmake_install.cmake:46 (file):
+[0.968s]   file INSTALL cannot find
+[0.968s]   "/home/faraz/bumperbot_ws/src/bumper_description/urdf": No such file or
+[0.968s]   directory.
+[0.968s] 
+[0.968s] [0m
+[0.970s] Invoked command in '/home/faraz/bumperbot_ws/src/build/bumper_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faraz/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/faraz/bumperbot_ws/src/build/bumper_description

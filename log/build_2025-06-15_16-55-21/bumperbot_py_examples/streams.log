@@ -1,0 +1,25 @@
+[0.715s] Invoking command in '/home/faraz/bumperbot_ws/build/bumperbot_py_examples': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/faraz/bumperbot_ws/build/bumperbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/faraz/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/faraz/bumperbot_ws/build/bumperbot_py_examples/build --no-deps symlink_data
+[0.991s] running develop
+[1.167s] running egg_info
+[1.167s] creating bumperbot_py_examples.egg-info
+[1.184s] writing bumperbot_py_examples.egg-info/PKG-INFO
+[1.184s] writing dependency_links to bumperbot_py_examples.egg-info/dependency_links.txt
+[1.184s] writing entry points to bumperbot_py_examples.egg-info/entry_points.txt
+[1.184s] writing requirements to bumperbot_py_examples.egg-info/requires.txt
+[1.184s] writing top-level names to bumperbot_py_examples.egg-info/top_level.txt
+[1.184s] writing manifest file 'bumperbot_py_examples.egg-info/SOURCES.txt'
+[1.222s] reading manifest file 'bumperbot_py_examples.egg-info/SOURCES.txt'
+[1.223s] writing manifest file 'bumperbot_py_examples.egg-info/SOURCES.txt'
+[1.242s] running build_ext
+[1.242s] Creating /home/faraz/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot-py-examples.egg-link (link to .)
+[1.242s] Installing simple_publisher script to /home/faraz/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[1.242s] Installing simple_subscriber script to /home/faraz/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[1.243s] 
+[1.243s] Installed /home/faraz/bumperbot_ws/build/bumperbot_py_examples
+[1.243s] running symlink_data
+[1.243s] creating /home/faraz/bumperbot_ws/install/bumperbot_py_examples/share/ament_index
+[1.243s] creating /home/faraz/bumperbot_ws/install/bumperbot_py_examples/share/ament_index/resource_index
+[1.243s] creating /home/faraz/bumperbot_ws/install/bumperbot_py_examples/share/ament_index/resource_index/packages
+[1.243s] symbolically linking /home/faraz/bumperbot_ws/build/bumperbot_py_examples/resource/bumperbot_py_examples -> /home/faraz/bumperbot_ws/install/bumperbot_py_examples/share/ament_index/resource_index/packages
+[1.243s] symbolically linking /home/faraz/bumperbot_ws/build/bumperbot_py_examples/package.xml -> /home/faraz/bumperbot_ws/install/bumperbot_py_examples/share/bumperbot_py_examples
+[1.271s] Invoked command in '/home/faraz/bumperbot_ws/build/bumperbot_py_examples' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/faraz/bumperbot_ws/build/bumperbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/faraz/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/faraz/bumperbot_ws/build/bumperbot_py_examples/build --no-deps symlink_data
